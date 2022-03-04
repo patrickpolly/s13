@@ -1,0 +1,69 @@
+/*CSS Reset*/
+
+* {
+	margin-right: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+font-family: 'League Gothic', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto Serif', sans-serif;
+background-color: #004868;
+}
+
+#bod {
+	border: 10px solid white;
+	border-radius: 150px;
+	height: 300px;
+	width: 300px;
+}
+.wrapper {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.typing-demo {
+  width: 25ch;
+  animation: typing 4s steps(40), blink .5s step-end infinite alternate; animation-iteration-count: 1000;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 5px solid orange;
+  font-family: monospace;
+  font-size: 2em;
+  color: white;
+}
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+#intro {
+	color: black;
+	font-weight: bold;
+	background-color: orange;
+	border-radius: 30px;
+	font-size: 2rem;
+	padding: 1rem;
+}
+#pre-footer {
+	padding: .05rem;
+	background-color:  #282C35;
+}
+#pre-footer > div {
+	display: inline-block;
+	width: 50%;
+	vertical-align: top;
+}
+#pre-footer > div > * {
+	margin-top: 0.3rem;
+	margin-bottom: 0.3rem;
+}
